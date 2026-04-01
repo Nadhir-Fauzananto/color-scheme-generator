@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <nav>
+            <h1 id="title">Color Scheme Generator</h1>
+            <h2 id="source-api">Powered by TheColorAPI</h2>
+        </nav>
+        <select name="mode" id="mode-select">
+            <option value="">Select Mode</option>
+            <option value="monochrome">Monochrome</option>
+            <option value="monochrome-dark">Monochrome-Dark</option>
+            <option value="monochrome-light">Monochrome-Light</option>
+            <option value="analogic">Analogic</option>
+            <option value="complement">Complement</option>
+            <option value="analogic-complement">Analogic-Complement</option>
+            <option value="triad">Triad</option>
+            <option value="quad">Quad</option>
+        </select>
+        <button id="btn-generate">Generate</button>
+        <div class="scheme-color" id="color-1">Hexcode 1</div>
+        <div class="scheme-color" id="color-2">Hexcode 2</div>
+        <div class="scheme-color" id="color-3">Hexcode 3</div>
+        <div class="scheme-color" id="color-4">Hexcode 4</div>
+        <div class="scheme-color" id="color-5">Hexcode 5</div>
+        <script src="index.js"></script>
+    </body>
+</html>

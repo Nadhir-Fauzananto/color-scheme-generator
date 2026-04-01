@@ -1,0 +1,110 @@
+body {
+    background-color: #FFE9F3;
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+    font-family: "Montserrat", sans-serif;
+    display: grid;
+    grid-template-areas: 
+        "nav nav nav nav nav nav nav nav nav sel"
+        "nav nav nav nav nav nav nav nav nav btn"
+        "col1 col1 col2 col2 col3 col3 col4 col4 col5 col5"
+        "col1 col1 col2 col2 col3 col3 col4 col4 col5 col5"
+        "col1 col1 col2 col2 col3 col3 col4 col4 col5 col5"
+        "col1 col1 col2 col2 col3 col3 col4 col4 col5 col5"
+        "col1 col1 col2 col2 col3 col3 col4 col4 col5 col5"
+        "col1 col1 col2 col2 col3 col3 col4 col4 col5 col5"
+        "col1 col1 col2 col2 col3 col3 col4 col4 col5 col5"
+        "col1 col1 col2 col2 col3 col3 col4 col4 col5 col5"
+        "col1 col1 col2 col2 col3 col3 col4 col4 col5 col5"
+        "col1 col1 col2 col2 col3 col3 col4 col4 col5 col5"
+        "col1 col1 col2 col2 col3 col3 col4 col4 col5 col5"
+        "col1 col1 col2 col2 col3 col3 col4 col4 col5 col5"
+        "col1 col1 col2 col2 col3 col3 col4 col4 col5 col5"
+    ;
+}
+
+nav {
+    grid-area: nav;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    background-color: #FFE9F3;
+}
+
+#title {
+    font-size: 3rem;
+    margin: 0;
+}
+
+#source-api {
+    font-size: 0.725rem;
+    padding-top: 2em;
+    margin: 0;
+}
+
+#btn-generate {
+    grid-area: btn;
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: 600;
+    background-color: #87BAAB;
+    border: 1px solid goldenrod;
+    cursor: pointer;
+
+}
+
+#mode-select {
+    grid-area: sel;
+    text-align: center;
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: 600;
+    background-color: #F4BFDB;
+    border: 1px solid goldenrod;
+}
+
+#btn-generate:active {
+    background-color: purple;
+}
+
+.scheme-color {
+    display: flex;
+    width: 20vw;
+    font-weight: 600;
+    font-size: 1rem;
+    justify-content: center;
+    align-items: end;
+    padding-bottom: 1em;
+}
+
+.scheme-color:hover {
+    text-shadow: 0px 0px 10px white, 0px 0px 15px blue;
+}
+
+#color-1 {
+    grid-area: col1;
+    background-color: red;
+}
+
+#color-2 {
+    grid-area: col2;
+    background-color: green;
+}
+
+#color-3 {
+    grid-area: col3;
+    background-color: blue;
+}
+
+#color-4 {
+    grid-area: col4;
+    background-color: yellow;
+}
+
+#color-5 {
+    grid-area: col5;
+    background-color: cyan;
+}
